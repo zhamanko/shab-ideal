@@ -1,0 +1,41 @@
+
+header{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.list-menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo a{  
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.item-menu{
+    transition: transform 0.4s ease;
+}
+
+
+.item-menu:hover{
+    transform: scale(1.2);
+}
+
+.item-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.img-icon{
+    width: 40px;
+}
+
